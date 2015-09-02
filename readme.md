@@ -8,10 +8,13 @@
 
 SPI pinout for 128x64 OLEDs is wired as follows:
 
-| ESP8266 Pin | OLED Pin  |
-| ----------- | --------- |
-| GPIO14      | CLK / SCLK / D0|
-| GPIO13      | MOSI / D1 |
-| GPIO4       | RESET     |
-| GPIO16      | D/C       |
-| GPIO12      | CS        |
+| ESP8266 Pin | OLED Pin       | Color of Wire in Picture |
+| ----------- | -------------- | ------------------------ |
+| GPIO14      | CLK / SCLK / D0| Yellow                   |
+| GPIO13      | MOSI / D1      | Brown                    |
+| GPIO4       | RESET          | NONE                     |
+| GPIO16      | D/C            | Green                    |
+| GPIO12      | CS             | Orange                   |
+| ----------- | -------------- | ------------------------ |
+| VCC         | VCC            | Red                      |
+| GND         | GND            | Black                    |
